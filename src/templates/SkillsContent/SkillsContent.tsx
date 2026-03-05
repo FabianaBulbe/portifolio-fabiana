@@ -10,14 +10,24 @@ interface Skill {
 
 export default function SkillsContent() {
   const skills: Skill[] = [
-    { name: 'React', level: 90, category: 'Frontend' },
-    { name: 'TypeScript', level: 85, category: 'Frontend' },
+    { name: 'React', level: 100, category: 'Frontend' },
+    { name: 'React Native', level: 80, category: 'Frontend' },
+    { name: 'Kotlin', level: 70, category: 'Frontend' },
+    { name: 'Next.js', level: 70, category: 'Frontend' },
+    { name: 'TypeScript', level: 90, category: 'Frontend' },
+    { name: 'JavaScript', level: 95, category: 'Frontend' },
     { name: 'Node.js', level: 80, category: 'Backend' },
-    { name: 'Tailwind CSS', level: 95, category: 'Frontend' },
-    { name: 'PostgreSQL', level: 75, category: 'Database' },
+    { name: 'CSS', level: 95, category: 'Frontend' },
+    { name: 'SQL', level: 75, category: 'Database' },
+    { name: 'My SQL', level: 90, category: 'Database' },
     { name: 'Git', level: 85, category: 'Tools' },
     { name: 'REST APIs', level: 88, category: 'Backend' },
-    { name: 'Responsive Design', level: 92, category: 'Frontend' },
+    { name: 'Java', level: 90, category: 'Backend' },
+    { name: 'SpringBoot', level: 80, category: 'Backend' },
+    { name: 'Java', level: 90, category: 'Backend' },
+    { name: 'Responsive Design', level: 100, category: 'Frontend' },
+    { name: 'Linux', level: 60, category: 'Ops' },
+    { name: 'Aws', level: 75, category: 'Ops' },
   ];
 
   return (

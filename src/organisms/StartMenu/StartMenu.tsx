@@ -31,7 +31,7 @@ export default function StartMenu({ isOpen, onItemClick }: StartMenuProps) {
           </Button>
         ))}
         <div className={styles.divider}></div>
-        <Button variant="menu">
+        <Button onClick={() => window.open('https://www.linkedin.com/in/fabiana-quelott-900904158/', '_blank')} variant="menu">
           <Power size={16} />
           <span>Shut Down...</span>
         </Button>

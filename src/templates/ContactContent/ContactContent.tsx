@@ -10,6 +10,18 @@ export default function ContactContent() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+
+    const nome = formData.name;
+    const email = formData.email;
+    const mensagem = formData.message;
+
+    const texto = `Olá! Meu nome é ${nome}.
+                  Email: ${email}
+                  ${mensagem}`;
+
+    const url = `https://wa.me/5531997804817?text=${encodeURIComponent(texto)}`;
+
+    window.open(url, "_blank");
     setSubmitted(true);
     setTimeout(() => setSubmitted(false), 3000);
   };
@@ -21,15 +33,15 @@ export default function ContactContent() {
       <div className={styles.grid}>
         <div className={styles.section}>
           <h3 className={styles.sectionTitle}>Informações de Contato</h3>
-          <a href="mailto:seu-email@exemplo.com" style={{ textDecoration: 'none', color: 'inherit' }}>
+          <a href="mailto:fabianaquelott@gmail.com" style={{ textDecoration: 'none', color: 'inherit' }}>
             <Button variant="default" className={styles.linkButton}>
               <Mail size={16} />
-              <span>seu-email@exemplo.com</span>
+              <span>E-mail</span>
             </Button>
           </a>
 
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/fabiana-quelott-900904158/"
             target="_blank"
             rel="noopener noreferrer"
             style={{ textDecoration: 'none', color: 'inherit' }}
@@ -41,7 +53,7 @@ export default function ContactContent() {
           </a>
 
           <a
-            href="https://github.com"
+            href="https://github.com/Fabianaquelott"
             target="_blank"
             rel="noopener noreferrer"
             style={{ textDecoration: 'none', color: 'inherit' }}

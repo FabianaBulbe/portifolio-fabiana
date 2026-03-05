@@ -1,5 +1,8 @@
 .button {
-  padding: 2px 4px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 4px;
   background-color: #c0c0c0;
   border-width: 2px;
   border-style: solid;

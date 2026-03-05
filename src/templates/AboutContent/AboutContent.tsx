@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './AboutContent.module.css';
 
 export default function AboutContent() {
@@ -7,20 +6,22 @@ export default function AboutContent() {
       <div className={styles.content}>
         <div className={styles.avatar}>FP</div>
         <div>
-          <h2 className={styles.title}>Freelance Developer</h2>
+          <h2 className={styles.title}>Full Stack Developer</h2>
           <p className={styles.text}>
-            Olá! Sou um desenvolvedor freelancer especializado em criar soluções web modernas e eficientes.
-            Com experiência em desenvolvimento full-stack, transformo ideias em realidade digital.
+            Hello, there! <br/> Sou desenvolvedora full stack com experiência na criação de aplicações web e mobile escaláveis, modernas e responsivas, com foco em performance, arquitetura e qualidade de código.
           </p>
           <p className={styles.text}>
-            Apaixonado por tecnologia e design, busco sempre entregar projetos que superem as expectativas
-            dos clientes, combinando funcionalidade com estética.
+            Atuo no desenvolvimento de produtos digitais desde o frontend até a infraestrutura, utilizando tecnologias como React, Next.js, TypeScript, Java (Spring Boot e Micronaut) e AWS. Tenho experiência em ambientes de produção, arquitetura de APIs, serverless, monitoramento e otimização de aplicações.
+            <br/>
+            Ao longo da minha carreira, participei da construção de plataformas utilizadas em energia, mineração e fintech, contribuindo tanto com desenvolvimento quanto com decisões técnicas de arquitetura e escalabilidade.
+            <br/>
+            Gosto de transformar ideias em produtos digitais eficientes, priorizando boa experiência do usuário, código sustentável e soluções que realmente resolvem problemas de negócio.
           </p>
           <div className={styles.infoBox}>
             <p className={styles.infoText}>
-              <strong>Status:</strong> Disponível para projetos<br />
+              <strong>Status:</strong> Disponível para projetos freelancer<br />
               <strong>Localização:</strong> Brasil<br />
-              <strong>Experiência:</strong> 3+ anos
+              <strong>Experiência:</strong> 5+ anos
             </p>
           </div>
         </div>
